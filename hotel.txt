@@ -1,0 +1,3 @@
+segue link github atividade hotel
+
+https://github.com/txminxtz/aw2/blob/main/atividade/hotel.html
