@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum de Fotos - Zebras</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .album {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .album img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .caption {
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Álbum de Fotos - Zebras</h1>
+    
+    <div class="album">
+        <div>
+            <img src="imagens/zebra1.webp" alt="Zebra 1">
+        </div>
+        <div>
+            <img src="imagens/zebra2.jpg" alt="Zebra 2">
+        </div>
+        <div>
+            <img src="imagens/zebra3.jpg" alt="Zebra 3">
+        </div>
+        <div>
+            <img src="imagens/zebra4.webp" alt="Zebra 4">
+        </div>
+    </div>
+    
+</body>
+</html>

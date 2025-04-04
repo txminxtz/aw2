@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum de Fotos - TWD</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .album {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .album img {
+            width: 80%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            opacity: 0.7;
+            transition: opacity 0.5s ease;
+        }
+        .album img:hover {
+            opacity: 1;
+        }
+        .caption {
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Álbum de Fotos - The Walking Dead</h1>
+    
+    <div class="album">
+        <div>
+            <img src="imagens/twd1.webp" alt="TWD 1">
+        </div>
+        <div>
+            <img src="imagens/twd2.jpg" alt="TWD 2">
+        </div>
+        <div>
+            <img src="imagens/twd3.webp" alt="TWD 3">
+        </div>
+        <div>
+            <img src="imagens/twd4.jpg" alt="TWD 4">
+        </div>
+        <div>
+            <img src="imagens/twd5.jpeg" alt="TWD 5">
+        </div>
+        <div>
+            <img src="imagens/twd6.jpg" alt="TWD 6">
+        </div>
+    </div>
+    
+</body>
+</html>
